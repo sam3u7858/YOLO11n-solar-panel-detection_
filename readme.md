@@ -1,5 +1,4 @@
 
----
 
 # YOLOv11n Solar Panel Condition Detection
 
