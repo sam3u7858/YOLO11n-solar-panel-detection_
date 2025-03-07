@@ -6,9 +6,8 @@ from pathlib import Path
 if __name__ == '__main__':
     try:
         from ultralytics import YOLO
-        
-        # Load a model - fixed model name (was "yolo11n.pt")
-        model_path = "yolov8n.pt"  # Standard YOLOv8 nano model name
+
+        model_path = "./weights/yolo_nano_solar_panel.pt"
         if not os.path.exists(model_path):
             print(f"Model {model_path} not found. Downloading...")
         
