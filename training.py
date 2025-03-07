@@ -8,9 +8,6 @@ if __name__ == '__main__':
         from ultralytics import YOLO
 
         model_path = "./weights/yolo_nano_solar_panel.pt"
-        if not os.path.exists(model_path):
-            print(f"Model {model_path} not found. Downloading...")
-        
         model = YOLO(model_path)
         
         # Create output directory if it doesn't exist
